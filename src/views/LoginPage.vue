@@ -18,6 +18,10 @@
 
 <script setup>
 
+// Login email: admin @stc.com
+// Login Password: 123456
+
+
 import { ref } from 'vue'
 import {useRoute, useRouter} from 'vue-router'
 
@@ -42,6 +46,4 @@ const logUserIn = async () => {
         logout()
     }
 }
-
-
 </script>
