@@ -19,7 +19,7 @@ const addEmployee = async () => {
         quote: empQuote.value
     })
 
-    //Clear all textboxes
+    //Clear all textboxes from the input section
     var inputs = document.querySelectorAll('input')
     inputs.forEach(singleInput => singleInput.value='')
 }
